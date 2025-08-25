@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+       <h2>Job Application Form</h2>
+       <fieldset class="box">
+            <legend style="font-weight: bold;">Personal Information</legend>
+            <div>
+                <label for="fname">First Name: </label>
+                <br>
+                <input type="text">
+            </div>
+            <div>
+                <label for="lname">Last Name: </label>
+                <br>
+                <input type="text">
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <br>
+                <input type="email">
+            </div>
+            <div>
+                <label for="number">Phone Number:</label>
+                <br>
+                <input type="number">
+            </div>
+        </fieldset>
+        <fieldset class="box">
+            <legend style="font-weight: bold;">Job Details</legend>
+            <div>
+                <label for="position">Position Applied</label>
+                <br>
+                <select name="" id="position">
+                    <option value="" selected disabled>Select</option>
+                    <option value="">Frontend Developer</option>
+                    <option value="">Backend Developer</option>
+                    <option value="">Data Scientist</option>
+                </select>
+            </div>
+            <div>
+                <label for="experience">Year of Experience:</label>
+                <br>
+                <input type="number">
+            </div>
+        </fieldset>
+        <fieldset class="box">
+            <legend style="font-weight: bold;">Availibility</legend>
+            <div>
+                <label for="start">Available Start:</label>
+                <br>
+                <input type="date">
+            </div>
+            <div class="relocate">
+                <label for="relocate">Willing to reloate:</label>
+                <div id="radio">
+                    <div class="choose">
+                        <label for="yes">Yes:</label>
+                        <input name="choose" id="yes" type="radio">
+                    </div>
+                    <div class="choose">
+                        <label for="no">No:</label>
+                        <input name="choose" id="no" type="radio">
+                    </div>
+                 </div>
+            </div>
+        </fieldset>
+        <button id="btn">Submit</button>
+    </div>
+</body>
+</html>
