@@ -1,0 +1,22 @@
+.box{
+     text-align: center;
+    line-height: 150px;
+    width: 200px;
+    height: 150px;
+    border: rgb(0, 0, 0) solid 2px;
+    background-color: rgb(222, 164, 164);
+    margin: 2px;
+    display: inline-block;
+    transition: 0.13s;
+      
+
+}
+.box:hover {
+  background-color: rgb(11, 57, 72);
+  transform: scale(1.05); 
+}
+.box img{
+  height: 150px;
+  width: 200px;
+  
+}
